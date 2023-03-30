@@ -40,7 +40,7 @@ rf_classifier.fit(X_train, y_train)
 
 # Test the classifier on the testing data
 predictions = rf_classifier.predict(X_test)
-
+print(predictions)
 # Print the accuracy of the classifier
-accuracy = sum(predictions == y_test) / len(y_test)
-print("Accuracy:", accuracy)
+# accuracy = sum(predictions == y_test) / len(y_test)
+# print("Accuracy:", accuracy)
